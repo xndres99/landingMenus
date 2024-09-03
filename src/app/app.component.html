@@ -29,6 +29,11 @@
     <div class="contenido">
       <h3>¿Como hacerlo?</h3>
       <h2>Solo escoge una plantilla y muestra de una forma moderna tus platillos magnificos.</h2>
+      <div class="botones">
+        <input type="button" value="Ver Demo"(click)="irWhatsapp()">
+        
+      </div>
+      
     </div>
   </section>
   
@@ -85,8 +90,10 @@
       </div>
       
       <div class="boton">
-        <input type="button" value="Contratar">
+        <input type="button" value="Contratar" (click)="irWhatsapp()">
       </div>
+
+      
 
     </div>
     <div class="plan2">
@@ -106,8 +113,13 @@
       </ul>   
     </div>
     <div class="boton">
-      <input type="button" value="Contratar">
-    </div>   
+      <input type="button" value="Contratar" (click)="irWhatsapp()">
+    </div>  
+    
+    <div class="precio">
+      <h2>20Bs</h2>
+      <p>mes</p>
+    </div>
 
     </div>
     <div class="plan">
@@ -126,9 +138,12 @@
         </ul>
       </div>
       <div class="boton">
-        <input type="button" value="Contratar">
+        <input type="button" value="Contratar"(click)="irWhatsapp()">
       </div>
-      
+      <div class="precio">
+        <h2>50Bs</h2>
+        <p>mes</p>
+      </div>
 
     </div>
   </article>

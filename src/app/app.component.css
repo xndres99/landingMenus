@@ -163,6 +163,7 @@ section .titulo{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 .plan .titulo, .plan .titulo h2{
     width: 100%;
@@ -195,6 +196,7 @@ section .titulo{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
     
 }
 .plan2 .titulo, .plan2 .titulo h2{
@@ -252,6 +254,26 @@ section .titulo{
   font-style: normal;
   
 }
+.precio{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(15, 31, 77);
+    flex-direction: column;
+}
+.precio h2, .precio p{
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
 .whatsapp{
     width: 70px;
     height: 70px;
