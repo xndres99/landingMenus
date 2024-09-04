@@ -34,4 +34,8 @@ export class AppComponent {
   irWhatsapp(){
     window.open('https://wa.me/+59161229848?text=Hola%20quiero%20mas%20informacion%20del%20menu%20para%20mi%20restaurante.', '_blank');
   }
+  irDemo(){
+    window.open('https://ratelappsdemo.netlify.app', '_blank');
+  }
+  
 }
